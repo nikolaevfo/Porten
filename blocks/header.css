@@ -1,10 +1,6 @@
 .header {
   padding-top: 14px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1110px;
-
+  width: 100%;
   font-family: "PT Sans", Arial, sans-serif;
   color: #969696;
   font-weight: normal;
@@ -18,16 +14,29 @@
   text-rendering: optimizeLegibility;
 }
 
-.header__info {
-  background: url("../images/header-Vector.svg") 0 50%/13px 13px no-repeat;
-  padding-left: 29px;
+.header__first-line {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 14px;
+}
+
+@media (max-width: 1150px) {
+  .header__first-line {
+    width: calc(100% - 40px);
+  }
+}
+
+.header__info {
+  background: url("../images/header-phone.svg") 0 50%/13px 13px no-repeat;
+  padding-left: 29px;
 }
 
 .header__log {
   background: url("../images/header-sharp-log-in.svg") 0 50%/13px 13px no-repeat;
   padding-left: 20px;
-  margin-bottom: 14px;
 }
 
 .header__log-login {
@@ -45,4 +54,62 @@
 
 .header__log-registration:hover {
   color: #fff;
+}
+
+.header__second-line {
+  background: #0f0f0f;
+  width: 100%;
+}
+
+/* ======================================================= */
+.header__second-line-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1150px) {
+  .header__second-line-container {
+    width: calc(100% - 40px);
+  }
+}
+
+.header__logo {
+  width: 104px;
+  height: 49px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header__menu-item {
+  position: relative;
+}
+
+.header__menu-link {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #969696;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  transition: 0.5s;
+  padding: 31px 20px;
+}
+
+.header__menu-link:hover {
+  background: #1f1f1f;
+}
+
+.header__menu-link-img {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 45px;
 }
