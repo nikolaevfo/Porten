@@ -1,17 +1,11 @@
 .header {
   padding-top: 14px;
   width: 100%;
-  font-family: "PT Sans", Arial, sans-serif;
+  margin: 0 auto;
   color: #969696;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
 }
 
 .header__first-line {
@@ -56,12 +50,12 @@
   color: #fff;
 }
 
+/* ======================================================= */
 .header__second-line {
   background: #0f0f0f;
   width: 100%;
 }
 
-/* ======================================================= */
 .header__second-line-container {
   width: 1110px;
   margin: 0 auto;
@@ -104,6 +98,9 @@
 
 .header__menu-link:hover {
   background: #1f1f1f;
+}
+.header__menu-link-img:hover {
+  background: #0f0f0f;
 }
 
 .header__menu-link-img {
