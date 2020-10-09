@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card-link {
+  position: relative;
+  width: 100%;
+  background-color: #191b1c;
+  background-image: url("../images/new-season-product.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  transition: 0.5s;
+  padding-bottom: 140%;
+  position: relative;
+  margin-bottom: 25px;
+}
+.card-link:hover {
+  background-color: #272a2c;
+}
+.card-description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+  margin-bottom: 40px;
+}

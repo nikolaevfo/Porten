@@ -1,0 +1,31 @@
+.brands {
+  width: 100%;
+  background: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 60px;
+}
+.brands__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  max-width: 1110px;
+  margin-bottom: 80px;
+}
+.brands__logo {
+  display: inline-block;
+  width: 255px;
+  height: 94px;
+}

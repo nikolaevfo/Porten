@@ -20,62 +20,20 @@
   text-transform: uppercase;
   margin-bottom: 50px;
 }
-.new-season__products-line {
-  margin-bottom: 50px;
-}
-.new-season__products-line:after {
-  display: block;
-  content: "";
-  width: 120px;
-  height: 1px;
-  background-color: #fff;
-}
 .new-season__cards {
   width: 85%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  margin-bottom: 93px;
+  margin-bottom: 50px;
 }
-.new-season__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.new-season__card-link {
-  position: relative;
-  width: 100%;
-  background: #191b1c url("../images/new-season-product.png") center/contain no-repeat;
-  padding-bottom: 140%;
-  position: relative;
-  margin-bottom: 25px;
-}
-.new-season__card-description {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 10px;
-}
-.new-season__card-price {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #d0d0d0;
-}
+
 /* =========================================== */
 .new-season__main {
   position: relative;
   display: flex;
   flex-direction: column;
-}
-.new-season__main-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: url("../images/new-season-main.jpg") center/cover no-repeat;
 }
 .new-season__main-container {
@@ -95,14 +53,4 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
-}
-.new-season__main-line {
-  margin-bottom: 30px;
-}
-.new-season__main-line:after {
-  display: block;
-  content: "";
-  width: 120px;
-  height: 1px;
-  background-color: #fff;
 }

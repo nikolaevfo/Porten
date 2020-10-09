@@ -1,0 +1,25 @@
+.line {
+}
+.line:after {
+  display: block;
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line_place_new-seasons-products {
+  margin-bottom: 50px;
+}
+
+.line_place-new-season-main {
+  margin-bottom: 30px;
+}
+
+.line_place_new {
+  margin-bottom: 80px;
+}
+
+.line_place_brands {
+  margin-bottom: 40px;
+}

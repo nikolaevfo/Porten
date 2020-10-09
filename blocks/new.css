@@ -1,0 +1,30 @@
+.new {
+  width: 100%;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.new__title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.line_place_new {
+  margin-bottom: 80px;
+}
+.new__grid {
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  column-gap: 23px;
+  margin-bottom: 110px;
+}
