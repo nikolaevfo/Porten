@@ -36,7 +36,25 @@
   margin-bottom: 60px;
   padding: 0 10px;
 }
-.button {
+
+@media (max-width: 800px) {
+  .collection {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.button-link {
+@media (max-width: 800px) {
+  .collection {
+    min-height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .collection__main {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .collection__description {
+    padding-top: 50px;
+  }
 }

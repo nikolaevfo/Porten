@@ -32,6 +32,7 @@
   margin-bottom: 37px;
 }
 .footer__first-line-categories-items {
+  padding: 0 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
@@ -64,6 +65,7 @@
   justify-content: start;
   align-items: start;
   padding: 0 10px;
+  margin-bottom: 20px;
 }
 .footer__form-mail {
   width: 210px;
@@ -97,4 +99,11 @@
   line-height: 16px;
   color: #d0d0d0;
   margin-bottom: 17px;
+}
+
+@media (max-width: 800px) {
+  .footer__first-line-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
