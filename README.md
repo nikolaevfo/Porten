@@ -1,5 +1,6 @@
 # Проект: Одностраничный интернет магазин Porten
 
+### Ссылка на GH Pages: [Porten](https://nikolaevfo.github.io/Porten/index.html "Porten").
 
 ### В процессе работы использованы: 
 * свободный макет Figma
@@ -15,5 +16,3 @@
 * кодировка: UTF-8
 * язык: русский
 * шрифты: "PT Sans", "Playfair Display"
-
-### Ссылка на GH Pages: [Porten](https://nikolaevfo.github.io/Porten/index.html "Porten").
